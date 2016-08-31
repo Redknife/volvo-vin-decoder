@@ -1,0 +1,387 @@
+{
+  "01": {
+    "engine": "B18K",
+    "desc": "R4, 1.7 L, petrol, carburetor",
+    "comment": "Old model"
+  },
+  "02": {
+    "engine": "B18KP",
+    "desc": "R4, 1.7 L, petrol, carburetor",
+    "comment": "Old model"
+  },
+  "03": {
+    "engine": "B18KP (D)",
+    "desc": "R4, 1.7 L, petrol, carburetor",
+    "comment": "Old model"
+  },
+  "04": {
+    "engine": "B18E (S)",
+    "desc": "R4, 1.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "05": {
+    "engine": "B18E (D)",
+    "desc": "R4, 1.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "06": {
+    "engine": "B18FT (M)",
+    "desc": "R4, 1.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "07": {
+    "engine": "B18K (D)",
+    "desc": "R4, 1.7 L, petrol, carburetor",
+    "comment": "Old model"
+  },
+  "09": {
+    "engine": "B18FP",
+    "desc": "R4, 1.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "10": {
+    "engine": "B18U (M)",
+    "desc": "R4, 1.8 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "11": {
+    "engine": "B17A",
+    "desc": "R4, 1.8 L, petrol, carburetor",
+    "comment": "Old model"
+  },
+  "12": {
+    "engine": "B18U (M)",
+    "desc": "R4, 1.8 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "13": {
+    "engine": "B18FP (U)",
+    "desc": "R4, 1.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "14": {
+    "engine": "B18E/B18EP",
+    "desc": "R4, 1.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "15": {
+    "engine": "B18U MT/B18U CVT",
+    "desc": "R4, 1.8 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "16": {
+    "engine": "B18U/B18U CVT",
+    "desc": "R4, 1.8 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "17": {
+    "engine": "B18F",
+    "desc": "R4, 1.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "18": {
+    "engine": "B18F/B18FP",
+    "desc": "R4, 1.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "19": {
+    "engine": "B18FT",
+    "desc": "R4, 1.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "21": {
+    "engine": "B19A",
+    "desc": "R4, 2.0 L, petrol, carburetor",
+    "comment": "Old model"
+  },
+  "23": {
+    "engine": "B19K",
+    "desc": "R4, 1.9 L, petrol, carburetor",
+    "comment": "Old model"
+  },
+  "24": {
+    "engine": "B19E",
+    "desc": "R4, 1.9 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "25": {
+    "engine": "B4204T2",
+    "desc": "R4, 2.0 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "26": {
+    "engine": "B19E Turbo",
+    "desc": "R4, 1.9 L, petrol, injector, turbo",
+    "comment": "Old model"
+  },
+  "27": {
+    "engine": "B200F",
+    "desc": "R4, 2.0 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "31": {
+    "engine": "B20F",
+    "desc": "R4, 2.0 L, petrol, injector",
+    "comment": ""
+  },
+  "32": {
+    "engine": "B20F (M)",
+    "desc": "R4, 2.0 L, petrol, injector",
+    "comment": ""
+  },
+  "38": {
+    "engine": "B5244S4",
+    "desc": "R5, 2.5 L, petrol, injector",
+    "comment": "USA"
+  },
+  "39": {
+    "engine": "B5244S7",
+    "desc": "R5, 2.5 L, petrol, injector",
+    "comment": "USA"
+  },
+  "41": {
+    "engine": "B5202S",
+    "desc": "R4, 2.0 L, petrol, injector",
+    "comment": ""
+  },
+  "44": {
+    "engine": "B21E",
+    "desc": "R4, 2.1 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "45": {
+    "engine": "B5204S",
+    "desc": "R4, 2.0 L, petrol, injector",
+    "comment": ""
+  },
+  "46": {
+    "engine": "B5204T2",
+    "desc": "R4, 2.0 L, petrol, injector, turbo",
+    "comment": ""
+  },
+  "47": {
+    "engine": "B5204T",
+    "desc": "R4, 2.0 L, petrol, injector, turbo",
+    "comment": ""
+  },
+  "48": {
+    "engine": "B21F",
+    "desc": "R4, 2.1 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "49": {
+    "engine": "B21F",
+    "desc": "R4, 2.1 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "50": {
+    "engine": "B5234T4",
+    "desc": "R5, 2.3 L, petrol, injector, turbo",
+    "comment": ""
+  },
+  "51": {
+    "engine": "B5252S",
+    "desc": "R5, 2.5 L, petrol, injector",
+    "comment": ""
+  },
+  "52": {
+    "engine": "B5254T4",
+    "desc": "R5, 2.5 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "53": {
+    "engine": "B5234T3",
+    "desc": "R5, 2.3 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "54": {
+    "engine": "B5244T5",
+    "desc": "R5, 2.4 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "55": {
+    "engine": "B5254S",
+    "desc": "R5, 2.5 L, petrol, injector, turbo",
+    "comment": ""
+  },
+  "56": {
+    "engine": "B5244T",
+    "desc": "R5, 2.4 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "57": {
+    "engine": "B5234T1",
+    "desc": "R5, 2.3 L, petrol, injector, turbo",
+    "comment": ""
+  },
+  "58": {
+    "engine": "B5234T5",
+    "desc": "R5, 2.3 L, petrol, injector, turbo",
+    "comment": ""
+  },
+  "59": {
+    "engine": "B5254T2",
+    "desc": "R5, 2.5 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "60": {
+    "engine": "B5244T2",
+    "desc": "R5, 2.4 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "61": {
+    "engine": "B5244S",
+    "desc": "R5, 2.4 L, petrol, injector",
+    "comment": "USA"
+  },
+  "62": {
+    "engine": "B28A",
+    "desc": "R6, 2.8 L, petrol, carburetor",
+    "comment": "Old model"
+  },
+  "64": {
+    "engine": "B5244S6",
+    "desc": "R5, 2.4 L, petrol, injector",
+    "comment": "USA"
+  },
+  "65": {
+    "engine": "B27F",
+    "desc": "R6, 2.7 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "68": {
+    "engine": "B5254T3",
+    "desc": "R5, 2.5 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "69": {
+    "engine": "B280F",
+    "desc": "R6, 2.8 L, petrol, injector",
+    "comment": "USA"
+  },
+  "70": {
+    "engine": "D19T",
+    "desc": "R4, 1.9 L, diesel, turbo",
+    "comment": ""
+  },
+  "71": {
+    "engine": "D20",
+    "desc": "R4, 2.0 L, diesel",
+    "comment": "Old model"
+  },
+  "72": {
+    "engine": "D5252T",
+    "desc": "R6, 2.5 L, diesel, turbo",
+    "comment": ""
+  },
+  "75": {
+    "engine": "D24",
+    "desc": "R6, 2.4 L, diesel",
+    "comment": "Old model"
+  },
+  "76": {
+    "engine": "D24T",
+    "desc": "R6, 2.4 L, diesel, turbo",
+    "comment": "USA"
+  },
+  "77": {
+    "engine": "D24",
+    "desc": "R6, 2.4 L, diesel",
+    "comment": "Old model"
+  },
+  "79": {
+    "engine": "D5244T",
+    "desc": "R5, 2.4 L, diesel, turbo, intercooler",
+    "comment": "New model"
+  },
+  "80": {
+    "engine": "B230G",
+    "desc": "R4, 2.3 L, petrol",
+    "comment": "Old model"
+  },
+  "81": {
+    "engine": "B23A",
+    "desc": "R4, 2.3 L, petrol, carburetor",
+    "comment": "Old model"
+  },
+  "82": {
+    "engine": "B230F",
+    "desc": "R4, 2.3 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "83": {
+    "engine": "B230FD",
+    "desc": "R4, 2.3 L, petrol, injector",
+    "comment": "USA"
+  },
+  "84": {
+    "engine": "B23E",
+    "desc": "R4, 2.3 L, petrol, injector",
+    "comment": "USA"
+  },
+  "85": {
+    "engine": "B8444S",
+    "desc": "V8, 4.4 L, petrol, injector",
+    "comment": "USA"
+  },
+  "86": {
+    "engine": "B230FT",
+    "desc": "R4, 2.3 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "87": {
+    "engine": "B230FT/B23FT",
+    "desc": "R4, 2.3 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "88": {
+    "engine": "B230FT/B23FT",
+    "desc": "R4, 2.3 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "89": {
+    "engine": "B234F",
+    "desc": "R4, 2.3 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "90": {
+    "engine": "B6284T",
+    "desc": "R6, 2.8 L, petrol, injector, turbo",
+    "comment": "USA"
+  },
+  "92": {
+    "engine": "B6244S",
+    "desc": "R6, 2.4 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "93": {
+    "engine": "B6254S",
+    "desc": "R6, 2.5 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "94": {
+    "engine": "B6294S",
+    "desc": "R6, 2.9 L, petrol, injector",
+    "comment": "USA"
+  },
+  "95": {
+    "engine": "B6304S1",
+    "desc": "R6, 3.0 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "96": {
+    "engine": "B6304S2",
+    "desc": "R6, 3.0 L, petrol, injector",
+    "comment": "Old model"
+  },
+  "98": {
+    "engine": "B6324S",
+    "desc": "R6, 3.2 L, petrol, injector",
+    "comment": "New model"
+  },
+  "99": {
+    "engine": "B6294T",
+    "desc": "R6, 3.0 L, petrol, turbo, intercooler",
+    "comment": "New model"
+  }
+}

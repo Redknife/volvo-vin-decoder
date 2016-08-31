@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Volvo VIN decoder</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="m-example-container">
+
+            <h1>Volvo VIN Decoder</h1>
+
+            <form action="/" class="m-form js-form">
+                <input type="text" class="m-form_input js-vin-input" name="vin" placeholder="Enter VIN" minlength="17" maxlength="17" required>
+                <button type="submit" class="m-button">Decode</button>
+                <a href="#" class="m-link js-put-example">Example code</a>
+            </form>
+
+            <div class="m-result js-result">
+
+            </div>
+
+        </div>
+
+
+        <script src="../dist/volvo-vin-decoder.min.js"></script>
+        <script>
+            var exampleCode = 'YV1CW585231287412';
+            var decoder = new VinDecoder();
+
+            var form = document.querySelector('.js-form');
+            var input = document.querySelector('.js-vin-input');
+            var resultContainer = document.querySelector('.js-result');
+            var putExampleBtn = document.querySelector('.js-put-example');
+
+            putExampleBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                input.value = exampleCode;
+                form.dispatchEvent(new Event('submit'));
+            });
+
+            form.addEventListener('submit', submitFormHandler);
+
+            function submitFormHandler(e) {
+                e.preventDefault();
+
+                var vin = input.value;
+
+                try {
+                    var data = decoder.decode(vin);
+                    putResult(data);
+                } catch (e) {
+                    resultContainer.innerHTML = '<div class="m-error">' + e.message + '</div>';
+                }
+            }
+
+            function putResult(data) {
+                resultContainer.innerHTML = (
+                        '<table class="m-table">' +
+                        formatPair('Vehicle', data.vehicle.value) +
+                        formatPair('Year', data.year.value) +
+                        formatPair('Doors', data.doors.value) +
+                        formatPair('Engine', data.engine.value.engine + '; ' + data.engine.value.desc) +
+                        formatPair('Gearbox', data.gearbox.value) +
+                        formatPair('Platform', data.platform.value) +
+                        formatPair('Assembly', data.assembly.value) +
+                        formatPair('WMI', data.wmi.value) +
+                        '</table>'
+                );
+            }
+
+            function formatPair(key, value) {
+                return (
+                    '<tr>' +
+                        '<td>' + key + '</td>' +
+                        '<td>' + value + '</td>' +
+                    '</tr>'
+                );
+            }
+        </script>
+    </body>
+</html>

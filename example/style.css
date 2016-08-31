@@ -1,0 +1,102 @@
+body {
+  min-width: 320px;
+
+  font-size: 100%;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.m-example-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 30px 15px 0;
+}
+
+.m-form {
+    width: auto;
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.m-form_input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+}
+
+.m-form_input:focus {
+    outline: none;
+    border-color: darkblue;
+}
+
+.m-link {
+    float: right;
+    font-size: 90%;
+    color: cornflowerblue;
+    text-decoration: none;
+    -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+}
+
+.m-link:hover {
+    color: darkblue;
+}
+
+.m-button {
+    border: 0;
+    color: #fff;
+    background: darkblue;
+    padding: 10px 20px;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+}
+
+.m-table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    background-color: transparent;
+}
+
+.m-table tbody {
+    border: 0;
+}
+
+.m-table tr {
+    border: 0;
+}
+
+.m-table th,
+.m-table td {
+    padding: 10px;
+    line-height: 1.5;
+    vertical-align: top;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.m-table tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.m-error {
+    text-align: center;
+    color: red;
+}

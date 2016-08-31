@@ -1,0 +1,30 @@
+{
+  "1981-1991": {
+    "A": "Air Bag & 3-Point Safety Harness (Seat Belt)",
+    "X": "3-Point Safety Harness (Seat Belt)"
+  },
+  "1992-1998": {
+    "S": "Sedan (4-door) with Air Bag & 3-Point Safety Harness (Seat Belt)",
+    "W": "Wagon (5-door) with Air Bag & 3-Point Safety Harness (Seat Belt)",
+    "T": "Sedan (4-door) 3-Point Safety Harness (Seat Belt) - Canada",
+    "X": "Wagon (5-door) 3-Point Safety Harness (Seat Belt) - Canada"
+  },
+  "1999+": {
+    "C": "All-New C70",
+    "H": "S40 AWD, S60 AWD, S80 AWD",
+    "J": "V50 AWD, V70 AWD",
+    "K": "C30 FWD",
+    "L": "XC60 2WD",
+    "M": "XC90 5-Seater AWD",
+    "N": "XC90 5-Seater FWD",
+    "R": "XC90 5-Seater AWD",
+    "S": "S40 FWD, S60 FWD, S80 FWD",
+    "V": "V40 FWD",
+    "W": "V50 FWD, V60 FWD, V60 Plug-In Hybrid (AWD), V70 FWD, V70 AWD",
+    "Y": "XC90 7-Seater FWD",
+    "Z": "XC60 AWD, XC70 AWD, XC90 7-Seater AWD"
+  },
+  "2013+": {
+    "M": "V40 Cross Country AWD"
+  }
+}

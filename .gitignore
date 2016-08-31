@@ -1,0 +1,9 @@
+node_modules
+dist/rs-slide-menu.js
+
+# IDE
+.idea
+
+# OS X
+*.DS_Store
+._*
